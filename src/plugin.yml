@@ -1,0 +1,48 @@
+name: MCBattleGrounds
+author: KSIO1329
+version: 1.1-ALPHA
+main: me.ksio.mcbg.Core
+depend: ['Multiverse-Core', ProtocolLib]
+commands:
+    guns:
+      usage: §cWrong usage!
+    mcbg:
+      usage: §cWrong usage, please use /mcbg help
+    game:
+      usage: §cWrong usage, please use /game help
+permissions:
+    mcbg.*:
+        children:
+            mcbg.command.*: true
+            mcbg.config.*: true
+    mcbg.command.config.reload:
+        default: op
+    mcbg.command.config.save:
+        default: op
+    mcbg.config.*:
+        children:
+            mcbg.command.config.reload: true
+            mcbg.command.config.save: true
+    mcbg.command.*:
+        children:
+            mcbg.command.get: true
+            mcbg.command.give: true
+            mcbg.command.addskin: true
+            mcbg.command.skinsel: true
+            mcbg.command.opallskins: true
+            mcbg.command.allskins: true
+            mcbg.command.nonews: true
+    mcbg.command.get:
+        default: op
+    mcbg.command.give:
+        default: op
+    mcbg.command.addskin:
+        default: op
+    mcbg.command.skinsel:
+        default: op
+    mcbg.command.opallskins:
+        default: op
+    mcbg.command.allskins:
+        default: op
+    mcbg.command.nonews:
+        default: op

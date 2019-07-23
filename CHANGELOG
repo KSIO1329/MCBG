@@ -1,0 +1,14 @@
+-Initial commit
+	v1.0-ALPHA
+	Everything I've done so far.
+-Update 1.1
+	v1.1-ALPHA
+	Improved command system - still doesn't work properly when arguments are incorrect... Will be fixed in next update!
+		Commands now work using "Nodes" which define specifically how commands should be used.
+		This helps make new commands with easy and extendable messages!
+	Skins overhaul:
+		Skins no longer give players an actual item of the skin.
+		Everything now works with packets! - STILL IN TEST PHASE, A LOT MORE WORK TO BE DONE FOR POLISHING!
+		Skins are now saved in a file!
+		Skins now work with classes rather than a million HashMaps and Lists!
+	This version is very buggy compared to the old one, but has a much better structure. It will be fixed soon.

@@ -1,0 +1,10 @@
+#Config file for MCBattleGrounds
+op:
+    allSkins: false
+settings:
+    allSkins:
+        t: []
+        f: []
+    nonews: []
+chat:
+    prefix: '&8[&cMC&3&lBG&8] '
